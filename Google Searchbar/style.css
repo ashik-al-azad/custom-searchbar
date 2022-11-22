@@ -1,0 +1,38 @@
+body {
+  background: #333;
+  padding: 50px;
+}
+
+span.search {
+  position: relative;
+}
+span.search input {
+  min-width: 100px;
+  height: 20px;
+  padding: 5px 35px 5px 12px;
+  border-radius: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+span.search input:focus {
+  min-width: 300px;
+}
+span.search button {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 5px;
+  border: none;
+  background: transparent;
+}
+span.search button i {
+  color: #999;
+  font-size: 15px;
+  line-height: 20px;
+}
+span.search :focus {
+  outline-color: transparent;
+  outline-style: none;
+}/*# sourceMappingURL=style.css.map */
